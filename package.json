@@ -1,0 +1,27 @@
+{
+  "name": "json-translator",
+  "version": "1.0.0",
+  "description": "Translate your JSON file with this tool!",
+  "main": "api.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github-ctinnovation:giovanni-bertoncelli/json-translator.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "ibm-watson": "^6.1.1",
+    "yargs": "^17.0.1"
+  },
+  "bin": "cli.js",
+  "devDependencies": {
+    "eslint": "^7.31.0",
+    "eslint-config-standard": "^16.0.3",
+    "eslint-plugin-import": "^2.23.4",
+    "eslint-plugin-node": "^11.1.0",
+    "eslint-plugin-promise": "^5.1.0"
+  }
+}

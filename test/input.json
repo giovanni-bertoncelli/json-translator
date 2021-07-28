@@ -1,0 +1,644 @@
+{
+  "waiting": {
+    "title": "Attesa del dispositivo...",
+    "hint": "Siamo in attesa che il dispositivo cominci a trasmettere... Presto verrai inoltrato sulla trasmissione!"
+  },
+  "castauthorize": {
+    "room": {
+      "title": "Theater Cast",
+      "hint": "Collegati ad una stanza per visualizzare un contenuto",
+      "room": "Codice stanza",
+      "roomhint": "AN_AWESOME_CODE",
+      "submit": "Accedi",
+      "switch": "Vuoi collegarti ad un dispositivo?"
+    },
+    "devices": {
+      "title": "Theater Cast",
+      "hint": "Collegati ad un dispositivo per attendere la condivisione di un contenuto",
+      "room": "Codice dispositivo",
+      "roomhint": "MY_DEVICE_CODE",
+      "submit": "Accedi",
+      "switch": "Vuoi collegarti ad una stanza?"
+    }
+  },
+  "stream": {
+    "closedtitle": "Presentazione conclusa",
+    "closedhint": "La presentazione del contenuto è stata conclusa!",
+    "exitingtitle": "Uscita in corso...",
+    "videoloadingtitle": "Ci siamo quasi!",
+    "videoloadinghint": "Ancora qualche secondo di pazienza...",
+    "title": "Theater Cast",
+    "loadingtitle": "Caricamento in corso...",
+    "loadinghint": "Stiamo caricando il tuo contenuto in questo momento!",
+    "loadinghint2": "Abbiamo quasi finito...",
+    "cancel": "Annulla",
+    "error": "Errore: ",
+    "back": "Torna indietro",
+    "errortitle": "Si è verificato un errore!",
+    "nostreamtitle": "Nessuna trasmissione",
+    "nostreamhint": "Nessuna trasmissione in corso!",
+    "errorhint": "Vedi dettagli in console."
+  },
+  "resources": {
+    "*": "Qualunque risorsa (*)",
+    "deviceGroups": "Gruppi dispositivi (deviceGroups)",
+    "devices": "Dispositivi (devices)",
+    "thumbnails": "Thumbnails (thumbnails)",
+    "providers": "Providers (providers)",
+    "grids": "Griglie (grids)",
+    "oauth": "Authenticazione (oauth)",
+    "roles": "Ruoli (roles)",
+    "organizations": "Organizzazioni (organizations)",
+    "theatercast": "Theater Cast (theatercast)",
+    "users": "Utenti (users)"
+  },
+  "actions": {
+    "*": "Qualunque operazione (*)",
+    "$VIEW": "Visualizza qualunque ($VIEW)",
+    "$EDIT": "Modifica qualunque ($EDIT)",
+    "$DELETE": "Cancella qualunque ($DELETE)",
+    "$CREATE": "Crea ($CREATE)"
+  },
+  "efts": {
+    "allow": "Consenti",
+    "deny": "Nega"
+  },
+  "roleaddedit": {
+    "title": "Modifica di",
+    "newrolename": "Nuovo rolo",
+    "removeparentrole": "Nessun ruolo padre",
+    "norolesparent": "Nessuna regola ereditata",
+    "parent": "Eredita dal ruolo",
+    "advanced": "Modifica avanzata",
+    "hint": "Visualizza e modifica il ruolo",
+    "name": "Nome",
+    "namehint": "superPower1234",
+    "submitedit": "Salva modifiche",
+    "submitnew": "Aggiungi",
+    "basicsection": "Informazioni di base",
+    "aclsection": "Regole personalizzate",
+    "noroles": "Nessuna regola personalizzata",
+    "parentsectionnoparent": "Regole ereditate",
+    "parentsection": "Regole ereditate da:",
+    "editparent": "Modifica",
+    "parentmodal": "Modifica ruolo padre",
+    "noparent": "Nessun ruolo padre",
+    "submitacls": "Aggiorna regole",
+    "addacl": "Aggiungi",
+    "obj": "Risorsa",
+    "act": "Operazione",
+    "eft": "Effetto",
+    "allow": "Consenti",
+    "deny": "Nega",
+    "acledit": "Modifica regola",
+    "acladd": "Nuova regola"
+  },
+  "roleslist": {
+    "updated": "Ultima modifica",
+    "created": "Creazione",
+    "newroletp": "Nuovo ruolo",
+    "name": "Nome",
+    "nousers": "Nessun ruolo",
+    "title": "Ruoli",
+    "description": "Ruoli nell'organizzazione",
+    "cancelfilter": "Cancella filtro",
+    "filtered": "ruoli visualizzati su",
+    "unsearchall": "Rimuovi filtro",
+    "unselectall": "Deseleziona tutti",
+    "selectedalt": "ruoli selezionati",
+    "edittp": "Modifica selezionato",
+    "norolesfilter": "Nessun ruolo col filtro selezionato!",
+    "organizations": "Organizzazioni",
+    "acls": "Regole",
+    "systemroletp": "Ruolo di sistema",
+    "removetp": "Rimuovi selezionato"
+  },
+  "organizationswitch": {
+    "title": "Cambia organizzazione",
+    "hint": "Seleziona l'organizzazione a cui vuoi accedere",
+    "active": "Organizzazione corrente",
+    "waitingtitle": "Cambio organizzazione in corso...",
+    "successtitle": "Accesso all'organizzazione ${0} riuscito!"
+  },
+  "common": {
+    "selectnoopt": "-- Nessun elemento selezionato --",
+    "statssection": "Statistiche",
+    "created": "Creazione",
+    "createdhint": "Data di aggiunta elemento",
+    "updated": "Ultima modifica",
+    "updatedhint": "Data ultima modifica",
+    "current": "(corrente)"
+  },
+  "useradd": {
+    "title": "Nuovo utente",
+    "hint": "Crea un nuovo utente"
+  },
+  "organizationaddedit": {
+    "iscurrentorg": "Stai utilizzando questa organizzazione",
+    "principaltitle": "Aggiungi contatto",
+    "principal": {
+      "name": "Nome",
+      "namehint": "Mario Rossi",
+      "email": "Email",
+      "emailhint": "rossi.mario@mail.com",
+      "phone": "Numero di telefono",
+      "phonehint": "+391237012341"
+    },
+    "principalsection": "Contatti",
+    "companysection": "Informazioni aziendali",
+    "address": "Indirizzo",
+    "socialNumber": "Codice fiscale",
+    "addresshint": "Bastioni Gran Sasso 25, Milano (MI)",
+    "socialnumberhint": "8123891629836192",
+    "neworgname": "Nuova organizzazione",
+    "title": "Modifica di",
+    "hint": "Visualizza e modifica l'organizzazione",
+    "dangersection": "Operazioni pericolose",
+    "namehint": "fantasticOrganization12",
+    "name": "Nome",
+    "description": "Descrizione",
+    "descriptionhint": "Una descrizione dell'organizzazione...",
+    "submit": "Salva modifiche",
+    "basicsection": "Informazioni di base",
+    "nocontacts": "Nessun contatto qui!",
+    "addprincipal": "Aggiungi",
+    "submitnew": "Aggiungi",
+    "submitedit": "Salva modifiche",
+    "removetitle": "Elimina l'organizzazione",
+    "removehint": "Attenzione! Questa operazione è irreversibile e prevede l'eliminazione di tutti i dati dell'organizzazione!",
+    "removebtn": "Elimina definitivamente"
+  },
+  "useraddedit": {
+    "jointitle": "Collega utente",
+    "joindesc": "Per aggiungere l'utente ${0} all'organizzazione corrente è necessario selezionare un ruolo con cui l'utente verrà registrato:",
+    "joinuserdesc": "L'indirizzo email inserito è già presente nel sistema",
+    "joinuser": "Collega utente",
+    "joinusertp": "Aggiungi l'utente esistente all'organizzazione corrente",
+    "notverifiedhint": "Email non verificata",
+    "passwordvalidation": "/^[a-zA-Z0-9_]{8,}$/",
+    "current": "(corrente)",
+    "hint": "Visualizza e modifica l'utente",
+    "usernamehint": "fantasticUser12",
+    "username": "Username",
+    "email": "Email",
+    "emailhint": "test@mydomain.com",
+    "description": "Descrizione",
+    "submit": "Salva modifiche",
+    "basicsection": "Informazioni di base",
+    "rolesection": "Contesto organizzazione",
+    "password": "Password",
+    "passwordhint": "Una nuova password",
+    "passwordconfirm": "Conferma password",
+    "passwordconfirmhint": "Uguale a quella prima",
+    "verifiedhint": "Email verificata",
+    "rolename": "Ruolo nell'organizzazione",
+    "rolenamemodal": "",
+    "submitrole": "Cambia ruolo",
+    "defaultset": "Imposta come default",
+    "default": "Organizzazione di default",
+    "globalrole": "Ruolo globale",
+    "transversaluser": "Utente globale",
+    "norole": "-- Nessun ruolo selezionato --",
+    "sessionsection": "Informazioni di sessione",
+    "lastlogin": "Ultimo accesso",
+    "lastloginhint": "Data di ultimo accesso dell'utente",
+    "nolastlogin": "Mai",
+    "lastpasswordchanged": "Ultima modifica password",
+    "lastpasswordchangedhint": "Data di ultima modifica della password",
+    "nolastpasswordchanged": "Mai",
+    "organizationssection": "Altre organizzazioni",
+    "nootherorganizations": "Questo utente è presente solo in questa organizzazione"
+  },
+  "paginator": {
+    "of": "di",
+    "labels": {
+      "pageSize": "Elementi per pagina"
+    }
+  },
+  "userslist": {
+    "role": "Ruolo",
+    "transversalusertp": "Utente globale",
+    "updated": "Ultima modifica",
+    "newusertp": "Nuovo utente",
+    "name": "Nome",
+    "nousers": "Nessun utente",
+    "title": "Utenti",
+    "description": "Utenti registrati nell'organizzazione",
+    "default": "Default",
+    "defaultset": "Imposta default",
+    "cancelfilter": "Cancella filtro",
+    "filtered": "utenti visualizzati su",
+    "unsearchall": "Rimuovi filtro",
+    "unselectall": "Deseleziona tutti",
+    "selectedalt": "utenti selezionati",
+    "edittp": "Modifica selezionato",
+    "nousersfilter": "Nessun utente col filtro selezionato!",
+    "organizations": "Organizzazioni",
+    "verificationtp": "Utente verificato",
+    "lastlogin": "Ultimo accesso",
+    "nolastlogin": "Mai",
+    "systemusertp": "Utente di sistema",
+    "removetp": "Rimuovi selezionato"
+  },
+  "organizationslist": {
+    "iscurrentorg": "Stai utilizzando questa organizzazione",
+    "title": "Organizzazioni",
+    "systemorganizationtp": "Organizzazione di sistema",
+    "updated": "Ultima modifica",
+    "neworganizationtp": "Nuova organizzazione",
+    "name": "Nome",
+    "noorganizations": "Nessuna organizzazione",
+    "description": "Organizzazioni presenti sulla piattaforma",
+    "cancelfilter": "Cancella filtro",
+    "filtered": "organizzazioni visualizzate su",
+    "unsearchall": "Rimuovi filtro",
+    "unselectall": "Deseleziona tutte",
+    "selectedalt": "organizzazioni selezionate",
+    "edittp": "Modifica selezionato",
+    "noorganizationsfilter": "Nessuna organizzazione col filtro selezionato!",
+    "verificationtp": "Utente verificato",
+    "removetp": "Rimuovi selezionato"
+  },
+  "deviceedit": {
+    "waitingroom": "Waiting room",
+    "waitingroomhint": "Stanza di attesa condivisione contenuti",
+    "status": "Stato",
+    "statushint": "Stato rilevato dispositivo",
+    "version": "Versione",
+    "versionhint": "Versione runtime Theater",
+    "activator": "Recupera utente attivatore",
+    "statssection": "Statistiche",
+    "created": "Creazione",
+    "createdhint": "Data aggiunta dispositivo",
+    "updated": "Ultima modifica",
+    "updatedhint": "Data ultima modifica",
+    "basicsection": "Informazioni di base",
+    "providerssection": "Providers configurati",
+    "noproviders": "Nessun provider registrato!",
+    "hint": "Visualizza e modifica il tuo dispositivo Theater",
+    "namehint": "Il mio dispositivo theater",
+    "descriptionhint": "Dispositivo aula riunioni",
+    "name": "Nome",
+    "description": "Descrizione",
+    "submit": "Salva modifiche"
+  },
+  "devicegroup": {
+    "dialognew": "Nuovo gruppo",
+    "dialogedit": "Modifica gruppo",
+    "description": "Descrizione",
+    "descriptionhint": "Dispositivi presenti in sala operativa",
+    "name": "Nome",
+    "namehint": "Sala operativa"
+  },
+  "devicestatuses": {
+    "unknown": "Sconosciuto",
+    "offline": "Offline",
+    "online": "Online"
+  },
+  "gridslist": {
+    "removetp": "Rimuovi selezionato",
+    "updated": "Ultima modifica",
+    "newgridtp": "Nuova griglia",
+    "name": "Nome",
+    "nogrids": "Nessuna griglia",
+    "title": "Griglie di",
+    "description": "Griglie del dispositivo Theater selezionato",
+    "default": "Default",
+    "defaultset": "Imposta default",
+    "cancelfilter": "Cancella filtro",
+    "filtered": "griglie visualizzate su",
+    "unsearchall": "Rimuovi filtro",
+    "unselectall": "Deseleziona tutti",
+    "selectedalt": "griglie selezionate",
+    "edittp": "Modifica selezionato",
+    "nogridsfilter": "Nessuna griglia col filtro selezionato!"
+  },
+  "deviceslist": {
+    "grids": "Griglie",
+    "cancelfilter": "Cancella filtro",
+    "filtered": "dispositivi visualizzati su",
+    "unsearchall": "Rimuovi filtro",
+    "title": "Dispositivi",
+    "description": "Theaters registrati nella tua organizzazione",
+    "move": "Sposta",
+    "online": "Online",
+    "name": "Nome",
+    "status": "Stato",
+    "version": "Versione",
+    "addgroup": "Aggiungi gruppo",
+    "newgroup": "Nuovo gruppo",
+    "nodevices": "Nessun dispositivo qui!",
+    "selected": "Selezionati",
+    "collapseall": "Comprimi/estendi tutti",
+    "movetitle": "Gruppi disponibili",
+    "edittp": "Modifica selezionato",
+    "gridtp": "Visualizza griglie",
+    "removetp": "Revoca selezionato",
+    "expandalltp": "Comprimi/espandi tutti",
+    "unselectall": "Deseleziona tutti",
+    "selectedalt": "dispositivi selezionati",
+    "nodevicesfilter": "Nessun dispositivo col filtro selezionato!"
+  },
+  "filters": {
+    "text": "File di testo",
+    "documents": "Documenti",
+    "videos": "Video",
+    "images": "Immagini"
+  },
+  "grid": {
+    "editattributes": "Modifica attributi",
+    "name": "Nome",
+    "description": "Descrizione",
+    "namehint": "La mia griglia",
+    "descriptionhint": "Una breve descrizione",
+    "newName": "Nuova griglia",
+    "newDescription": "Nessuna descrizione",
+    "newTile": "Nuova tile",
+    "noMediaId": "Nessun media selezionato"
+  },
+  "objectbuilder": {
+    "submit": "Salva",
+    "cancel": "Annulla"
+  },
+  "explorer": {
+    "searchhint": "Cerca nella cartella",
+    "label": "Media",
+    "mediaid": "ID",
+    "path": "Percorso completo",
+    "basename": "Nome file",
+    "browse": "Sfoglia...",
+    "providers": "Providers",
+    "select": "Seleziona file...",
+    "size": "Dimensione",
+    "mime": "Mime",
+    "submit": "Seleziona",
+    "cancel": "Annulla",
+    "updated": "Ultima modifica",
+    "filterhint": "Filtra per tipo",
+    "error": "Errore",
+    "errorhint": "Spiacenti, si è verificato un errore!",
+    "timeout": "Richiesta scaduta",
+    "timeouthint": "Non è stato possibile eseguire la richiesta in un tempo ragionevole.",
+    "noproviders": "Nessun provider!",
+    "noprovidershint": "Nessun provider registrato per il dispositivo!"
+  },
+  "edittiledialog": {
+    "title": "Modifica tile",
+    "submit": "Salva",
+    "cancel": "Annulla",
+    "labels": {
+      "title": "Titolo",
+      "titlehint": "Una nuova tile"
+    }
+  },
+  "thumb": {
+    "verifiedhint": "L'anteprima potrebbe essere obsoleta!",
+    "errorhint": "Impossibile caricare la miniatura"
+  },
+  "gridedit": {
+    "title": "Modifica di",
+    "edit": "Modifica",
+    "submit": "Salva",
+    "action": "Nuovo tassello"
+  },
+  "confirm": {
+    "removeaclconfirm": "Rimuovere la regola?",
+    "removedescription": "Attenzione! Questa operazione è irreversibile e prevede l'eliminazione di tutti i dati dell'organizzazione! L'organizzazione non sarà più accessibile ai suoi utenti, tutti i dispositivi registrati sull'organizzazione saranno eliminati con le relative configurazioni! Sei sicuro di voler procedere?",
+    "removeuser": "Rimuovere l'utente? Questo utente non avrà più accesso al sistema!",
+    "removegrid": "Rimuovere la griglia? Questa operazione è irreversibile!",
+    "revokedevice": "Revocare il dispositivo? Questa operazione è irreversibile!",
+    "doublecheck": "Per confermare inserire il nome dell'elemento da rimuovere:",
+    "deletegroup": "Sicuri di voler rimuovere il gruppo?",
+    "yes": "Si",
+    "no": "No",
+    "tileremove": "Rimuovere la tile?",
+    "title": "Confermare?",
+    "leaveconfirm": "Potrebbero esserci modifiche non salvate!"
+  },
+  "defaults": {
+    "nodescription": "Nessuna descrizione"
+  },
+  "deviceregister": {
+    "title": "Nuovo Theater",
+    "hint": "Termina la procedura di registrazione del tuo nuovo dispositivo.",
+    "cancel": "Per terminare la procedura:",
+    "cancelaction": "torna alla home",
+    "labels": {
+      "name": "Nome",
+      "namehint": "Un Theater nuovo di zecca",
+      "description": "Descrizione",
+      "descriptionhint": "Theater sala di controllo...",
+      "submit": "Aggiungi dispositivo",
+      "organization": "Seleziona l'organizzazione",
+      "devicegroup": "Seleziona gruppo dispositivi",
+      "user_code": "Codice di attivazione",
+      "usercodehint": "QWEA-ASDQ"
+    }
+  },
+  "breadcrumbs": {
+    "theatercast": "Theater Cast",
+    "castwaiting": "Attesa contenuto...",
+    "castroom": "Seleziona stanza streaming",
+    "castdevice": "Seleziona device streaming",
+    "roleadd": "Nuovo ruolo",
+    "rolelist": "Ruoli",
+    "roleedit": "Modifica ruolo",
+    "useradd": "Nuovo utente",
+    "userlist": "Utenti",
+    "useredit": "Modifica utente",
+    "organizationadd": "Nuova organizzazione",
+    "organizationlist": "Organizzazioni",
+    "organizationedit": "Modifica organizazzioni",
+    "gridlist": "Griglie",
+    "devicelist": "Dispositivi",
+    "deviceedit": "Modifica dispositivo",
+    "gridedit": "Modifica griglia",
+    "home": "Home",
+    "dashboard": "Dashboard",
+    "users": "Utenti",
+    "404": "Non trovato",
+    "401": "Errore 401",
+    "apiunavailable": "Errore API",
+    "devices": "Dispositivi",
+    "deviceregister": "Nuovo Theater"
+  },
+  "sidebar": {
+    "logout": "Esci",
+    "org": "Cambia organizzazione"
+  },
+  "dashboard": {
+    "title": "Dashboard",
+    "action": "Crea report"
+  },
+  "menu": {
+    "dashboard": "Dashboard",
+    "devices": "Dispositivi",
+    "deviceList": "I miei dispositivi",
+    "deviceSettings": "Impostazioni",
+    "organizations": "Organizzazioni",
+    "users": "Utenti",
+    "roles": "Ruoli"
+  },
+  "section": {
+    "admin": "Amministrazione",
+    "organization": "Organizzazione"
+  },
+  "login": {
+    "title": "Theater",
+    "forgot": "Password dimenticata?",
+    "hint": "Accedi al backoffice",
+    "recover": "Recupera l'account.",
+    "labels": {
+      "username": "Username o email",
+      "usernamehint": "myusername",
+      "password": "Password",
+      "passwordhint": "aVerySecretPassword",
+      "submit": "Accedi"
+    }
+  },
+  "logout": {
+    "title": "Chiusura della sessione..."
+  },
+  "resetpassword": {
+    "title": "Reset password",
+    "body": "Inserisci l'indirizzo email del tuo account. Se l'indirizzo risulterà valido invieremo una email per il recupero.",
+    "labels": {
+      "email": "La tua email",
+      "emailhint": "test@mydomain.com",
+      "submit": "Invia"
+    },
+    "back": "Torna al login"
+  },
+  "setpassword": {
+    "title": "Reset password",
+    "body": "Inserisci una nuova password",
+    "back": "Torna al login",
+    "action": "Cambia password",
+    "labels": {
+      "password": "Nuova password",
+      "passwordhint": "Una password sicura",
+      "passwordconfirm": "Conferma nuova password",
+      "passwordconfirmhint": "Conferma la password"
+    }
+  },
+  "changepassword": {
+    "title": "Cambio password",
+    "body": "Per cambiare la tua password è richiesta la password precedente.",
+    "back": "Torna al tuo profilo",
+    "action": "Cambia password",
+    "labels": {
+      "oldpassword": "Vecchia password",
+      "password": "Nuova password",
+      "passwordconfirm": "Conferma nuova password"
+    }
+  },
+  "validation": {
+    "existingemail": "L'email già registrata su un'organizzazione",
+    "minTiles": "Inserire un numero maggiore di tiles!",
+    "required": "Campo richiesto",
+    "email": "Formato email invalido",
+    "passwordsNotMatching": "Le password non coincidono",
+    "minlength": "Richiesti 6 caratteri almeno",
+    "requiredTrueArray": "Seleziona almeno un campo",
+    "maxlength": "Testo troppo lungo",
+    "pattern": "Formato scorretto",
+    "channelIdNotFound": "Canale non trovato",
+    "invalidinput": "Input non valido",
+    "itemnotfound": "L'elemento selezionato non è stato trovato",
+    "thresholdInvalid": "Modello di soglia errato",
+    "invalidJson": "JSON invalido",
+    "min": "Valore troppo basso",
+    "max": "Valore troppo alto"
+  },
+  "apiError": {
+    "header": "Ops!",
+    "title": "Non è stato possibile recuperare la risorsa per un errore",
+    "action": "Torna al sicuro"
+  },
+  "alerts": {
+    "stream": {
+      "unauthorized": "Impossibile autenticarsi!",
+      "error": "Si è verificato un errore!"
+    },
+    "changeorgok": "Accesso all'organizzazione: ",
+    "changeorgerror": "Impossibile cambiare contesto per un errore",
+    "removeorganizationsuccess": "Organizzazione rimossa con successo!",
+    "removefromdefaultorg": "Impossibile rimuovere l'utente dall'organizzazione di default!",
+    "joinerror": "Impossibile collegare l'utente all'organizzazione per un errore",
+    "joinedalready": "L'utente è già registrato a questa organizzazione!",
+    "joinok": "Utente collegato correttamente!",
+    "removeusersuccess": "Utente rimosso con successo",
+    "removegridsuccess": "Griglia rimossa con successo",
+    "removedevicesuccess": "Dispositivo rimosso con successo",
+    "movedevicegroup": {
+      "nodestid": "Impossibile trovare l'ID del gruppo destinazione",
+      "nodeviceid": "Impossibile trovare l'ID del dispositivo da aggiornare!"
+    },
+    "devicemovedto": "Dispositivo/i spostati nel gruppo:",
+    "copied": "Testo copiato con successo!",
+    "submitsuccess": "Modifiche salvate con successo!",
+    "submiterror": "Impossibile salvare le modifiche",
+    "gridslist": "Impossibile caricare la lista griglie",
+    "gridloading": "Impossibile caricare la griglia",
+    "conflict": "Impossibile eseguire l'operazione: conflitto di risorse.",
+    "notfound": "Impossibile eseguire l'operazione: entità non trovata.",
+    "internal": "Impossaibile eseguire l'operazione per un errore interno. Riprovare più tardi.",
+    "badrequest": "Impossibile eseguire l'operazione: richiesta malformata.",
+    "deviceactivated": "Dispositivo attivato con successo!",
+    "deviceactivationerror": "Impossibile attivare il dispositivo!",
+    "invalidCredentials": "Credenziali non valide",
+    "logoutFailed": "Logout fallito",
+    "sessionTimedOut": "Sessione scaduta",
+    "unauth": "Operazione non autorizzata",
+    "forbidden": "Operazione non consentita",
+    "resetPasswordSent": "Controlla la tua casella di posta",
+    "generic": "Qualcosa è andato storto",
+    "resetPasswordError": "Non è stato possibile ripristinare la password per un errore",
+    "resetPasswordOk": "Password cambiata. Effettuare il login.",
+    "sendVerifyEmailOk": "Email di verifica inviata. Controlla la tua casella di posta",
+    "verifyEmailOK": "La tua mail è stata verificata",
+    "verifyEmailFailed": "Verifica della email fallita",
+    "changePasswordOK": "La tua password è stata correttamente cambiata. Esegui il login.",
+    "changePasswordFailed": "Errore nel cambio della password. Password vecchia errata?",
+    "updateProfileOK": "Il tuo profilo è stato salvato",
+    "updateProfileErr": "Errore nell'aggiornamento del profilo",
+    "diagnostic": "Diagnostica",
+    "loginerror": "Impossibile effettuare il login per un errore!"
+  },
+  "404": {
+    "header": "404.",
+    "title": "Siamo spiacenti, l'elemento che hai cercato non è stato trovato...",
+    "action": "Torna alla dashboard",
+    "thepath": "Siamo spiacenti, il percorso",
+    "pathnotfound": "non è stato trovato..."
+  },
+  "apinotavailable": {
+    "header": "Uh Oh.",
+    "title": "Siamo spiacenti, l'API non è raggiungibile per un problema. Stiamo già lavorando per risolverlo.",
+    "action": "Riprova"
+  },
+  "401": {
+    "header": "401.",
+    "title": "Siamo spiacenti, ma non hai il permesso di accedere alla risorsa cercata...",
+    "action": "Torna alla dashboard"
+  },
+  "sendverifyemail": {
+    "title": "Verifica email",
+    "body": "Pare che il tuo account non sia ancora stato verificato. Ti abbiamo inviato una mail di verifica, controlla la tua casella di posta o premi il pulsante sottostante.",
+    "action": "Reinvia la email",
+    "gotohome": "Salta"
+  },
+  "verifyemail": {
+    "back": "Torna indietro",
+    "action": "Invia di nuovo",
+    "error": {
+      "title": "Errore",
+      "body": "Si è verificato un errore nella verifica della email. Il link potrebbe essere scaduto!"
+    },
+    "success": {
+      "title": "Congratulazioni",
+      "body": "Il tuo indirizzo email è stato correttamente verificato!",
+      "redirect": "Stai per essere inoltrato alla home..."
+    }
+  }
+}
