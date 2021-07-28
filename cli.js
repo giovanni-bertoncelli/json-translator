@@ -23,10 +23,14 @@ const { argv } = require('yargs')
   .demandOption(['input', 'to', 'apiKey', 'apiUrl'])
 
 const Translator = require('./api')
+const ora = require('ora')
 
 async function main () {
-  const translator = new Translator(argv)
+  const spinner = ora('Initializing... 📚').start()
+  const translator = new Translator({ ...argv, spinner })
   await translator.run()
+  spinner.succeed('All done! 😆')
+  spinner.stop()
 }
 
 main()

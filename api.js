@@ -1,8 +1,7 @@
 const fs = require('fs')
 const p = require('path')
 const TranslatorInCloud = require('./utils/cloud')
-const { translate } = require('./utils/cloud')
-const { forInNested, setNested } = require('./utils/trees')
+const { forInNested, setNested, countLeaves } = require('./utils/trees')
 
 class Translator {
   constructor (opts) {
@@ -15,10 +14,23 @@ class Translator {
     output = p.isAbsolute(output) ? output : p.join(__dirname, output)
     const outputJson = JSON.parse(fs.readFileSync(input, 'utf-8'))
     const translator = new TranslatorInCloud(this.opts)
+
+    if (this.opts.spinner) {
+      this.opts.spinner.succeed('Initialized!')
+    }
+    const totalTranslations = await countLeaves(outputJson)
+    let current = 0
     await forInNested(outputJson, async (value, key, treePath) => {
+      current++
+      if (this.opts.spinner) {
+        this.opts.spinner.start()
+        this.opts.spinner.text = `Translating value #${current}/${totalTranslations}...`
+      }
+
       const translated = await translator.translate(value, this.opts)
       setNested(outputJson, translated, treePath)
     })
+    this.opts.text = 'Writing final output...'
     fs.writeFileSync(output, JSON.stringify(outputJson, null, 2))
   }
 }

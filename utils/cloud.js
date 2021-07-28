@@ -18,7 +18,6 @@ class TranslatorInCloud {
     if (!text) {
       return
     }
-    console.log('Translating', text, '...')
     const translateParams = {
       text,
       target: this.opts.to
@@ -29,7 +28,6 @@ class TranslatorInCloud {
     }
     try {
       const { result } = await this.languageTranslator.translate(translateParams)
-      console.log('Done.')
       return result.translations[0].translation
     } catch (e) {
       console.error(e)

@@ -1,3 +1,11 @@
+async function countLeaves (object) {
+  let result = 0
+  await forInNested(object, () => {
+    result++
+  })
+  return result
+}
+
 function forInNested (object, handler) {
   return forInNestedRec(object, handler)
 }
@@ -9,7 +17,7 @@ async function forInNestedRec (step, handler, treePath = []) {
       await forInNestedRec(step[key], handler, [...treePath, key])
     } else {
       const returnedVal = handler(step[key], key, [...treePath, key])
-      if (returnedVal.then) {
+      if (returnedVal && returnedVal.then) {
         await returnedVal
       }
     }
@@ -30,5 +38,6 @@ function setNestedRec (target, value, treePath) {
 
 module.exports = {
   forInNested,
-  setNested
+  setNested,
+  countLeaves
 }
