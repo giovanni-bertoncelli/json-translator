@@ -19,10 +19,9 @@ const { argv } = require('yargs')
   .describe('apiKey', 'Cloud IBM Language Translator API KEY')
   .string('apiUrl')
   .describe('apiUrl', 'Cloud IBM Language Translator API URL')
-  .help()
   .demandOption(['input', 'to', 'apiKey', 'apiUrl'])
 
-const Translator = require('./api')
+const Translator = require('.')
 const ora = require('ora')
 
 async function main () {

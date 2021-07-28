@@ -3,15 +3,15 @@ const p = require('path')
 const TranslatorInCloud = require('./utils/cloud')
 const { forInNested, setNested, countLeaves } = require('./utils/trees')
 
-class Translator {
+class JsonTranslator {
   constructor (opts) {
     this.opts = opts
   }
 
   async run () {
     let { input, output } = this.opts
-    input = p.isAbsolute(input) ? input : p.join(__dirname, input)
-    output = p.isAbsolute(output) ? output : p.join(__dirname, output)
+    input = p.isAbsolute(input) ? input : p.join(process.cwd(), input)
+    output = p.isAbsolute(output) ? output : p.join(process.cwd(), output)
     const outputJson = JSON.parse(fs.readFileSync(input, 'utf-8'))
     const translator = new TranslatorInCloud(this.opts)
 
@@ -35,4 +35,4 @@ class Translator {
   }
 }
 
-module.exports = Translator
+module.exports = JsonTranslator
