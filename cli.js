@@ -1,3 +1,4 @@
+#!/usr/bin/env node
 const { argv } = require('yargs')
   .usage('$0 <input>', 'Translate input file')
   .positional('input', {

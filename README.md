@@ -11,7 +11,7 @@ This tool requires [IBM Cloud Language Translator](https://cloud.ibm.com/apidocs
 
 ## Installation
 
-Since this package is not on the ufficial NPM registry you should add the github npm registry for my account prefix: create a .npmrc file inside your destination project and insert this line
+Since this package is not on the ufficial NPM registry you should add the github npm registry for my account prefix: create a .npmrc file inside your destination project (or the global npmrc, run "npm config list") and insert this line
 
 ```text
 @giovanni-bertoncelli:registry=https://npm.pkg.github.com
