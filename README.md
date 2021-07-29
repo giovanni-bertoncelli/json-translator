@@ -4,9 +4,24 @@ Translate your JSON file with this tool!
 
 This tool requires [IBM Cloud Language Translator](https://cloud.ibm.com/apidocs/language-translator?code=try#introduction) subscription in order to translate automatically your keys. It's free and very easy to use!
 
+- [Installation](#installation)
 - [Get started](#get-started)
 - [API](#api)
 - [More customization](#more-customization)
+
+## Installation
+
+Since this package is not on the ufficial NPM registry you should add the github npm registry for my account prefix: create a .npmrc file inside your destination project and insert this line
+
+```text
+@giovanni-bertoncelli:registry=https://npm.pkg.github.com
+```
+
+and then install the package:
+
+```bash
+npm install [-g] @giovanni-bertoncelli/json-translator
+```
 
 ## Get started
 
