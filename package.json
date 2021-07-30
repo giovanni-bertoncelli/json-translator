@@ -1,6 +1,6 @@
 {
   "name": "@giovanni-bertoncelli/json-translator",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Translate your JSON file with this tool!",
   "main": "index.js",
   "publishConfig": {
