@@ -6,7 +6,7 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "postpublish": "npm run publish-npm",
-    "publish-npm": "npm publish --access public --ignore-scripts --@giovanni-bertoncelli/:registry='https://registry.npmjs.org'"
+    "publish-npm": "npm publish --access public --ignore-scripts --@giovanni-bertoncelli:registry='https://registry.npmjs.org'"
   },
   "repository": {
     "type": "git",
