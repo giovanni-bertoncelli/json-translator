@@ -15,7 +15,7 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "ibm-watson": "^6.1.1",
+    "ibm-watson": "^7.1.2",
     "ora": "^5.4.1",
     "yargs": "^17.0.1"
   },

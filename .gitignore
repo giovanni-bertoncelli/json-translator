@@ -104,3 +104,8 @@ dist
 .tern-port
 
 credentials.*
+
+it-IT.json
+it.json
+en.json
+en-US.json

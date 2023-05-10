@@ -5,7 +5,6 @@ Translate your JSON file with this tool!
 This tool requires [IBM Cloud Language Translator](https://cloud.ibm.com/apidocs/language-translator?code=try#introduction) subscription in order to translate automatically your keys. It's free and very easy to use!
 
 - [Installation](#installation)
-  - [Installation (github registry)](#installation-github-registry)
 - [Get started](#get-started)
 - [API](#api)
 - [More customization](#more-customization)
@@ -60,11 +59,12 @@ await translator.run();
 
 ## More customization
 
-| Parameter | Required | Type   | Default       | Description                                                                                                                                 |
-| --------- | -------- | ------ | ------------- | ------------------------------------------------------------------------------------------------------------------------------------------- |
-| input     | X        | path   | ./output.json | The JSON file to translate                                                                                                                  |
-| output    |          | path   | ./output.json | The translated JSON output                                                                                                                  |
-| to        | X        | string |               | Which language translate the JSON input to. (Available languages: https://cloud.ibm.com/apidocs/language-translator?code=try#listlanguages) |
-| from      |          | string |               | Which language is used in the input JSON file (automatically inferred if omitted)                                                           |
-| apiUrl    | X        | string |               | IBM Cloud Language Translator API Url (see: https://cloud.ibm.com/apidocs/language-translator?code=try#service-endpoint)                    |
-| apiKey    | X        | string |               | IBM Cloud Language Translator API Key                                                                                                       |
+| Parameter          | Required | Type    | Default       | Description                                                                                                                                                                                                                                 |
+| ------------------ | -------- | ------- | ------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| input              | X        | path    | ./output.json | The JSON file to translate                                                                                                                                                                                                                  |
+| output             |          | path    | ./output.json | The translated JSON output                                                                                                                                                                                                                  |
+| to                 | X        | string  |               | Which language translate the JSON input to. (Available languages: https://cloud.ibm.com/apidocs/language-translator?code=try#listlanguages)                                                                                                 |
+| from               |          | string  |               | Which language is used in the input JSON file (automatically inferred if omitted)                                                                                                                                                           |
+| apiUrl             | X        | string  |               | IBM Cloud Language Translator API Url (see: https://cloud.ibm.com/apidocs/language-translator?code=try#service-endpoint)                                                                                                                    |
+| apiKey             | X        | string  |               | IBM Cloud Language Translator API Key                                                                                                                                                                                                       |
+| ignoreExistingFile |          | boolean | false         | Ignore existing output file in order to prevent translations of strings already translate in output file. Keep this to false in order to avoid translating multiple time the same strings and translate only the missing string in destination file. |

@@ -24,11 +24,31 @@ async function forInNestedRec (step, handler, treePath = []) {
   }
 }
 
+function getNested (target, treePath) {
+  return getNestedRec(target, treePath)
+}
+
+function getNestedRec (target, treePath) {
+  if (!target[treePath[0]]) {
+    return undefined
+  }
+
+  if (treePath.length === 1) {
+    return target[treePath[0]]
+  }
+
+  return getNestedRec(target[treePath[0]], treePath.slice(1))
+}
+
 function setNested (target, value, treePath) {
   setNestedRec(target, value, treePath)
 }
 
 function setNestedRec (target, value, treePath) {
+  if (!target[treePath[0]]) {
+    target[treePath[0]] = {}
+  }
+
   if (treePath.length === 1) {
     target[treePath[0]] = value
     return
@@ -39,5 +59,6 @@ function setNestedRec (target, value, treePath) {
 module.exports = {
   forInNested,
   setNested,
-  countLeaves
+  countLeaves,
+  getNested
 }
